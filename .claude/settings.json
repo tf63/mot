@@ -41,6 +41,7 @@
       "WebFetch(domain:stackoverflow.com)"
     ],
     "ask": [
+      "Bash(git push:*)",
       "Bash(gh pr create:*)",
       "Bash(gh pr review:*)",
       "Bash(gh pr comment:*)",

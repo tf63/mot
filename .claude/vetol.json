@@ -33,6 +33,7 @@
     { "command": "git log" },
     { "command": "git show" },
     { "command": "git branch", "include": ["-a"] },
+    { "command": "git push" },
     { "command": "gh pr view" },
     { "command": "gh pr diff" },
     { "command": "gh pr list" },

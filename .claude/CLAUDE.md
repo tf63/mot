@@ -65,6 +65,8 @@
 
 ## Allowed Commands
 
+- `Bash` コマンドは以下のものだけ許可されています
+
 ```bash
 # Read-only Operations
 ls
@@ -94,6 +96,7 @@ git diff
 git show
 git log
 git branch -a
+git push
 gh pr view
 gh pr diff
 gh pr list
@@ -105,4 +108,13 @@ golangci-lint
 go doc
 go test
 go build
+```
+
+## Denied Commands
+
+- 禁止されているコマンドのうち、あなたがよく使おうとするコマンドです
+
+```bash
+cd
+cat
 ```
