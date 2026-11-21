@@ -59,6 +59,10 @@
       "Agent(general-purpose)"
     ]
   },
+  "statusLine": {
+    "type": "command",
+    "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/scripts/statusline.sh"
+  },
   "plansDirectory": ".claude/plans",
   "autoMemoryDirectory": ".claude/memories",
   "enabledMcpjsonServers": [],
