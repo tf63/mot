@@ -20,7 +20,7 @@ git worktree add "${WORKTREE_DIR}" "${BRANCH_NAME}"
 
 echo "==> Copying files and directories"
 
-for file in "${COPY_FILES[@]}"; do
+for file in ${COPY_FILES[@]+"${COPY_FILES[@]}"}; do
   if [[ ! -e "${file}" ]]; then
     echo "    SKIP: path not found: ${file}"
     continue
