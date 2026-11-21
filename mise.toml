@@ -19,3 +19,6 @@ install-tools.run = [
 # claude
 claude-coding = "claude --agent coding-agent"
 
+# git
+setup-worktree = ".claude/scripts/setup_worktree.sh"
+remove-worktree = ".claude/scripts/remove_worktree.sh"
