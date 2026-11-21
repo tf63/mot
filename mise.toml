@@ -1,5 +1,5 @@
 [tools]
-go = "1.27.3"
+go = "1.27.4"
 "npm:commitlint" = "19.8.1"
 "npm:lefthook" = "1.11.14"
 "npm:oxfmt" = "0.68.0"
@@ -17,5 +17,5 @@ install-tools.run = [
 ]
 
 # claude
-claude = "claude --agent coding-agent"
+claude-coding = "claude --agent coding-agent"
 
